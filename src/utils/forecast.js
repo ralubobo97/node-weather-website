@@ -16,9 +16,10 @@ const forecast = (latitude, longitude, callback) => {
                 latitude: body.latitude,
                 location: body.timezone,
                 summary: body.currently.summary,
-                degrees: body.currently.temperature
+                degrees: body.currently.temperature,
+                humidity: body.currently.humidity
             })
-        }
+        } 
     })
 }
 
