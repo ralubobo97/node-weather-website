@@ -1,0 +1,58 @@
+body {
+    color: #474fc7;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+   color: #888888;
+   border-top: 2px solid coral;
+   margin-top: 16px;
+   padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: coral;
+    margin-right: 16px;
+}
+
+.mountain{
+    width: 650px;
+    height: auto;
+}
+
+input{
+    border: 1px solid #474fc7;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #474fc7;
+    background-color: #474fc7;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
