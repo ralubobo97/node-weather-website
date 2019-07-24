@@ -1,4 +1,3 @@
-console.log('Client side JavaScript is loaded!')
 
 // the url we are trying to fetch from:
 fetch('http://puzzle.mead.io/puzzle').then((response) => {
