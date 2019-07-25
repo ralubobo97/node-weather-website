@@ -26,7 +26,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
             } else {
                 messageOne.textContent = data.location
-                messageTwo.textContent = data.forecast.summary + ', umiditate ' + data.forecast.humidity + '%, ' + data.forecast.degrees + ' °C.'
+                messageTwo.textContent = data.forecast.summary + ', umiditate ' + data.forecast.humidity + '%, cu o temperatura de ' + data.forecast.degrees + ' °C.'
             }
         })
     })
